@@ -1,0 +1,9 @@
+1) Is the I2C pull-up resistor isolation jumper present? [NO]
+comment: exists on qwiic slaves
+
+2) Is the MISO tri-state buffer included? [NO]
+comment: copying risc-v schematic
+
+3) Are all QFN components with 6 or more leads 75 percent pasted on lead pads? (May be contended depending on performance) [NO]
+comment: 48 qfn is known good
+
