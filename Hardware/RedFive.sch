@@ -31344,7 +31344,10 @@ PTH and SMD connector options available.&lt;/p&gt;
 <connect gate="J1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14503" constant="no"/>
+<attribute name="VALUE" value="JTAG" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -33836,7 +33839,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="13945"/>
+<attribute name="PROD_ID" value="RES-13945"/>
 <attribute name="VALUE" value="6V 0.5A"/>
 </technology>
 </technologies>
@@ -35874,7 +35877,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="U$10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U4" library="SparkFun-IC-Microcontroller" deviceset="SIFIVE_FE310" device="" value="FE310"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG" device="_SMD"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="CORTEX_JTAG_DEBUG" device="_SMD" value="JTAG"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>

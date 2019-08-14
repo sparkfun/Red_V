@@ -11306,7 +11306,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="F1" library="SparkFun-Fuses" package="0805" value="6V 0.5A" x="6.35" y="29.845" smashed="yes">
 <attribute name="NAME" x="6.35" y="30.734" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="13945" x="6.35" y="29.845" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="RES-13945" x="6.35" y="29.845" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="6.35" y="28.956" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="JP11" library="SparkFun-Connectors" package="1X08_SMD_COMBINED" value="JP11" x="63.5" y="50.8" smashed="yes" rot="R180">
@@ -11393,7 +11393,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U4" library="SparkFun-IC-Microcontroller" package="QFN-48-.4MMPITCH" value="FE310" x="41.91" y="34.29" smashed="yes">
 <attribute name="PROD_ID" value="IC-14494" x="41.91" y="34.29" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" package="2X5-SMD-1.27MM" value="CORTEX_JTAG_DEBUG_SMD" x="43.18" y="17.78" smashed="yes" rot="R180"/>
+<element name="J5" library="SparkFun-Connectors" package="2X5-SMD-1.27MM" value="JTAG" x="43.18" y="17.78" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="CONN-14503" x="43.18" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="JTAG" x="43.18" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="C1" library="SparkFun-Capacitors" package="0603" value="10uF" x="49.53" y="38.354" smashed="yes">
 <attribute name="NAME" x="49.53" y="39.116" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-11015" x="49.53" y="38.354" size="1.778" layer="27" display="off"/>
