@@ -11111,6 +11111,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Jumpers">
+<description>&lt;h3&gt;SparkFun Jumpers&lt;/h3&gt;
+In this library you'll find jumpers, or other semipermanent means of changing current paths. The least permanent form is the solder jumper. These can be changed by adding, removing, or moving solder. In cases that are less likely to be changed we have jumpers that are connected with traces. These can be cut with a razor, or reconnected with solder. Reference designator JP.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMT-JUMPER_2_NO_NO-SILK">
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<smd name="1" x="-0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0.4064" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11621,7 +11644,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$39" library="buzzard_labels (6)" package="RXI29" value="" x="63.5" y="44.577" smashed="yes" rot="R90"/>
 <element name="U$40" library="buzzard_labels (6)" package="TXO28" value="" x="60.96" y="43.815" smashed="yes" rot="R90"/>
 <element name="U$41" library="buzzard_labels (6)" package="VIN6" value="" x="45.72" y="4.572" smashed="yes" rot="R90"/>
-<element name="U$42" library="buzzard_labels (6)" package="_#PWM30" value="" x="47.498" y="42.164" smashed="yes" rot="R90"/>
+<element name="U$42" library="buzzard_labels (6)" package="_#PWM30" value="" x="43.688" y="42.164" smashed="yes" rot="R90"/>
 <element name="U$43" library="buzzard_labels (6)" package="NC7" value="" x="23.876" y="44.958" smashed="yes" rot="R90"/>
 <element name="U$45" library="buzzard_labels (7)" package="133" value="" x="32.432" y="35.941" smashed="yes" rot="R90"/>
 <element name="U$46" library="buzzard_labels (7)" package="PWR0" value="" x="32.432" y="23.495" smashed="yes" rot="R90"/>
@@ -11695,6 +11718,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C30" library="SparkFun-Capacitors" package="0603" value="10uF" x="10.16" y="43.18" rot="R180">
 <attribute name="PROD_ID" value="CAP-11015" x="10.16" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
+<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_NO-SILK" value="JUMPER-SMT_2_NO_NO-SILK" x="-22.86" y="-20.32"/>
 </elements>
 <signals>
 <signal name="IO2">
@@ -12324,6 +12348,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="8.128" y1="28.575" x2="8.128" y2="27.686" width="0.2032" layer="1"/>
 <wire x1="8.128" y1="29.845" x2="9.522" y2="29.845" width="0.2032" layer="1"/>
 <wire x1="9.522" y1="29.845" x2="9.652" y2="29.715" width="0.2032" layer="1"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="7.45" y1="26.924" x2="-22.4536" y2="-20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VUSB">
 <contactref element="F1" pad="1"/>
@@ -12343,6 +12369,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="7.493" y1="34.163" x2="4.445" y2="31.115" width="0.381" layer="1"/>
 <wire x1="7.62" y1="41.402" x2="7.493" y2="41.275" width="0.381" layer="16"/>
 <wire x1="7.493" y1="36.957" x2="7.493" y2="36.92" width="0.381" layer="1"/>
+<contactref element="JP1" pad="1"/>
+<wire x1="3.39" y1="29.845" x2="-23.2664" y2="-20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
