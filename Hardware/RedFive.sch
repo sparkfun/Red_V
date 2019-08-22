@@ -36551,7 +36551,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="TP8" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="R20" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
@@ -37808,9 +37807,6 @@ T.Igoe, G.Martino, D.Mellis</text>
 <instance part="GND24" gate="1" x="91.44" y="144.78" smashed="yes">
 <attribute name="VALUE" x="91.44" y="144.526" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="TP8" gate="G$1" x="157.48" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="157.48" y="43.18" size="1.778" layer="95" font="vector" rot="R270"/>
-</instance>
 <instance part="R20" gate="G$1" x="160.02" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="158.496" y="53.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="161.544" y="53.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
@@ -38569,10 +38565,7 @@ T.Igoe, G.Martino, D.Mellis</text>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 <junction x="160.02" y="45.72"/>
-<pinref part="TP8" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="45.72" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
-<junction x="157.48" y="45.72"/>
 <label x="154.94" y="45.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
