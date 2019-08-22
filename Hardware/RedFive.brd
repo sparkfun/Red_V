@@ -11660,7 +11660,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C27" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="20.955" y="25.4" rot="R270">
 <attribute name="PROD_ID" value="CAP-00810" x="20.955" y="25.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="2X3" value="AVR_SPI_PROG_3X2PTH" x="24.96" y="19.57" rot="R270"/>
+<element name="J1" library="SparkFun-Connectors" package="2X3" value="FEMALE 2x3" x="24.96" y="19.57" rot="R270">
+<attribute name="PROD_ID" value="CONN-11566" x="24.96" y="19.57" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="FEMALE 2x3" x="24.96" y="19.57" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="TP8" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="27.94" y="21.59" rot="MR0"/>
 <element name="R20" library="SparkFun-Resistors" package="0603" value="100k" x="30.48" y="20.32" rot="R270">
 <attribute name="PROD_ID" value="RES-07828" x="30.48" y="20.32" size="1.778" layer="27" rot="R270" display="off"/>
