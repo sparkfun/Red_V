@@ -34438,13 +34438,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="22" x="-1.25" y="-5.8" dx="0.22" dy="0.6" layer="1"/>
 <smd name="23" x="-0.75" y="-5.8" dx="0.22" dy="0.6" layer="1"/>
 <smd name="24" x="-0.25" y="-5.8" dx="0.22" dy="0.6" layer="1"/>
-<wire x1="5.2" y1="5.2" x2="5.2" y2="-5.2" width="0.127" layer="21"/>
-<wire x1="5.2" y1="-5.2" x2="-5.2" y2="-5.2" width="0.127" layer="21"/>
-<wire x1="-5.2" y1="-5.2" x2="-5.2" y2="4.3" width="0.127" layer="21"/>
-<wire x1="-5.2" y1="4.3" x2="-4.5" y2="5" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="5" x2="-4.3" y2="5.2" width="0.127" layer="21"/>
-<wire x1="-4.3" y1="5.2" x2="5.2" y2="5.2" width="0.127" layer="21"/>
-<circle x="-5.15" y="5.15" radius="0.1" width="0.4" layer="21"/>
+<wire x1="5.2" y1="5.2" x2="5.2" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="5.2" y1="-5.2" x2="-5.2" y2="-5.2" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="-5.2" x2="-5.2" y2="4.3" width="0.2032" layer="21"/>
+<wire x1="-5.2" y1="4.3" x2="-4.5" y2="5" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="5" x2="-4.3" y2="5.2" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="5.2" x2="5.2" y2="5.2" width="0.2032" layer="21"/>
+<circle x="-5.15" y="5.15" radius="0.1" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -34511,8 +34511,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.86" y1="-40.64" x2="22.86" y2="48.26" width="0.254" layer="94"/>
 <wire x1="22.86" y1="48.26" x2="-25.4" y2="48.26" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="48.26" x2="-25.4" y2="-40.64" width="0.254" layer="94"/>
-<text x="-25.4" y="-43.18" size="1.778" layer="95" font="vector">&gt;Names</text>
-<text x="-25.4" y="48.26" size="1.778" layer="96" font="vector">&gt;Values</text>
+<text x="-25.4" y="-43.18" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-25.4" y="48.26" size="1.778" layer="96" font="vector">&gt;Value</text>
 <pin name="VSSA" x="25.4" y="-33.02" length="short" rot="R180"/>
 <pin name="VBATT" x="-27.94" y="45.72" length="short"/>
 </symbol>
@@ -34592,7 +34592,7 @@ enablement and scalability of the Kinetis family.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="" constant="no"/>
+<attribute name="PROD_ID" value="IC-14611" constant="no"/>
 <attribute name="VALUE" value="MK22FN128VLH10" constant="no"/>
 </technology>
 </technologies>
@@ -37378,7 +37378,8 @@ T.Igoe, G.Martino, D.Mellis</text>
 <wire x1="83.82" y1="48.26" x2="0" y2="48.26" width="0.1524" layer="97" style="longdash"/>
 <wire x1="137.16" y1="48.26" x2="137.16" y2="93.98" width="0.1524" layer="97" style="longdash"/>
 <wire x1="137.16" y1="93.98" x2="137.16" y2="129.54" width="0.1524" layer="97" style="longdash"/>
-<wire x1="137.16" y1="129.54" x2="137.16" y2="185.42" width="0.1524" layer="97" style="longdash"/>
+<wire x1="137.16" y1="129.54" x2="137.16" y2="147.32" width="0.1524" layer="97" style="longdash"/>
+<wire x1="137.16" y1="147.32" x2="137.16" y2="185.42" width="0.1524" layer="97" style="longdash"/>
 <wire x1="137.16" y1="129.54" x2="0" y2="129.54" width="0.1524" layer="97" style="longdash"/>
 <text x="86.36" y="88.9" size="2.54" layer="94" font="vector">Qwiic</text>
 <text x="2.54" y="43.18" size="2.54" layer="94" font="vector">Headers</text>
@@ -37386,12 +37387,14 @@ T.Igoe, G.Martino, D.Mellis</text>
 <text x="139.954" y="181.102" size="2.54" layer="94" font="vector">32MBit QSPI Flash</text>
 <text x="2.54" y="124.46" size="2.54" layer="94" font="vector">Capacitors</text>
 <text x="166.116" y="11.43" size="2.54" layer="94" font="vector">Andrew England</text>
-<text x="236.22" y="7.874" size="2.54" layer="94" font="vector">v01</text>
+<text x="236.22" y="7.874" size="2.54" layer="94" font="vector">v02</text>
 <wire x1="137.16" y1="48.26" x2="137.16" y2="40.64" width="0.1524" layer="97" style="longdash"/>
 <wire x1="137.16" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="40.64" x2="147.32" y2="35.56" width="0.1524" layer="97" style="longdash"/>
 <wire x1="137.16" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="97" style="longdash"/>
 <wire x1="83.82" y1="93.98" x2="83.82" y2="48.26" width="0.1524" layer="97" style="longdash"/>
+<wire x1="248.92" y1="147.32" x2="137.16" y2="147.32" width="0.1524" layer="97" style="longdash"/>
+<text x="139.954" y="143.002" size="2.54" layer="94" font="vector">USB -&gt; JTAG</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -37463,26 +37466,26 @@ T.Igoe, G.Martino, D.Mellis</text>
 <instance part="GND2" gate="1" x="119.38" y="53.34" smashed="yes">
 <attribute name="VALUE" x="119.38" y="53.086" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U5" gate="G$1" x="182.88" y="154.94" smashed="yes">
-<attribute name="NAME" x="172.72" y="144.78" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="172.72" y="165.608" size="1.778" layer="96" font="vector"/>
+<instance part="U5" gate="G$1" x="182.88" y="162.56" smashed="yes">
+<attribute name="NAME" x="172.72" y="152.4" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="172.72" y="173.228" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="167.64" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="166.116" y="157.861" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="166.116" y="152.781" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="C2" gate="G$1" x="167.64" y="162.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="166.116" y="165.481" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="166.116" y="160.401" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
-<instance part="GND5" gate="1" x="167.64" y="144.78" smashed="yes">
-<attribute name="VALUE" x="167.64" y="144.526" size="1.778" layer="96" align="top-center"/>
+<instance part="GND5" gate="1" x="167.64" y="152.4" smashed="yes">
+<attribute name="VALUE" x="167.64" y="152.146" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY14" gate="G$1" x="167.64" y="165.1" smashed="yes">
-<attribute name="VALUE" x="167.64" y="167.894" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY14" gate="G$1" x="167.64" y="172.72" smashed="yes">
+<attribute name="VALUE" x="167.64" y="175.514" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="213.36" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="211.836" y="160.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="214.884" y="160.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="213.36" y="167.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="211.836" y="167.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="214.884" y="167.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="213.36" y="167.64" smashed="yes">
-<attribute name="VALUE" x="213.36" y="170.434" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY15" gate="G$1" x="213.36" y="175.26" smashed="yes">
+<attribute name="VALUE" x="213.36" y="178.054" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="C6" gate="G$1" x="15.24" y="106.68" smashed="yes">
 <attribute name="NAME" x="16.764" y="109.601" size="1.778" layer="95" font="vector"/>
@@ -37690,10 +37693,10 @@ T.Igoe, G.Martino, D.Mellis</text>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="U5" gate="G$1" pin="GND"/>
-<wire x1="167.64" y1="152.4" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="149.86" x2="167.64" y2="147.32" width="0.1524" layer="91"/>
-<junction x="167.64" y="149.86"/>
+<wire x1="167.64" y1="160.02" x2="167.64" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="157.48" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="157.48" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
+<junction x="167.64" y="157.48"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -37814,16 +37817,16 @@ T.Igoe, G.Martino, D.Mellis</text>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="VCC"/>
-<wire x1="170.18" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="162.56" x2="167.64" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="162.56" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
-<junction x="167.64" y="162.56"/>
+<wire x1="167.64" y1="170.18" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="170.18" x2="167.64" y2="172.72" width="0.1524" layer="91"/>
+<junction x="167.64" y="170.18"/>
 <pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="165.1" x2="213.36" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="172.72" x2="213.36" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -38249,48 +38252,48 @@ T.Igoe, G.Martino, D.Mellis</text>
 </net>
 <net name="QSPI_3" class="0">
 <segment>
-<wire x1="195.58" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="HOLD#/IO3"/>
-<label x="215.9" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="215.9" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="213.36" y1="152.4" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="154.94" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
-<junction x="213.36" y="152.4"/>
+<wire x1="213.36" y1="160.02" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="162.56" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
+<junction x="213.36" y="160.02"/>
 </segment>
 </net>
 <net name="QSPI_2" class="0">
 <segment>
-<wire x1="195.58" y1="154.94" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="162.56" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="WP#/IO2"/>
-<label x="198.12" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="198.12" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="QSPI_0" class="0">
 <segment>
-<wire x1="195.58" y1="160.02" x2="198.12" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="167.64" x2="198.12" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="MOSI/IO0"/>
-<label x="198.12" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="198.12" y="167.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="QSPI_SCK" class="0">
 <segment>
-<wire x1="195.58" y1="162.56" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="SCK"/>
-<label x="198.12" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="198.12" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="QSPI_1" class="0">
 <segment>
-<wire x1="195.58" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="165.1" x2="198.12" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="MISO/IO1"/>
-<label x="198.12" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="198.12" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="QSPI_CS" class="0">
 <segment>
-<wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="CE#"/>
-<label x="198.12" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="198.12" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
