@@ -11718,6 +11718,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-11015" x="10.16" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_NO-SILK" value="JUMPER-SMT_2_NO_NO-SILK" x="6.35" y="31.75"/>
+<element name="TP8" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="-19.05" y="-24.13"/>
 </elements>
 <signals>
 <signal name="IO2">
@@ -11840,6 +11841,30 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="25.4" y1="21.8948" x2="25.0698" y2="22.225" width="0.2032" layer="1"/>
 <wire x1="25.0698" y1="22.225" x2="18.78" y2="22.225" width="0.2032" layer="1"/>
 <wire x1="28.28" y1="22.86" x2="27.3148" y2="21.8948" width="0.2032" layer="1"/>
+<contactref element="TP8" pad="P$1"/>
+<wire x1="1.27" y1="19.05" x2="-19.05" y2="-24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="19.05" x2="1.27" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="21.59" x2="2.54" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="22.86" x2="2.54" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="2.54" y1="24.13" x2="2.54" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="24.13" x2="2.54" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="24.13" x2="3.81" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="24.13" x2="5.08" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="24.13" x2="6.35" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="21.59" x2="7.62" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="19.05" x2="7.62" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="6.35" y1="19.05" x2="7.62" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="5.08" y1="19.05" x2="6.35" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="24.13" x2="2.54" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="22.86" x2="2.54" y2="22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="19.05" x2="2.54" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="21.59" x2="2.54" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="20.32" x2="1.27" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="3.81" y1="25.947" x2="3.81" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="10.64" y1="21.59" x2="7.62" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C3" pad="-"/>

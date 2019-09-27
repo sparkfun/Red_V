@@ -36569,6 +36569,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK"/>
+<part name="TP8" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 </parts>
 <sheets>
 <sheet>
@@ -37869,6 +37870,9 @@ T.Igoe, G.Martino, D.Mellis</text>
 <instance part="SUPPLY23" gate="G$1" x="20.32" y="81.28" smashed="yes">
 <attribute name="VALUE" x="20.32" y="84.074" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="TP8" gate="G$1" x="66.04" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.58" y="20.32" size="1.778" layer="95" font="vector" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -38288,10 +38292,12 @@ T.Igoe, G.Martino, D.Mellis</text>
 <net name="5V" class="0">
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
-<wire x1="73.66" y1="27.94" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="JP10" gate="G$1" pin="4"/>
 <wire x1="73.66" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="20.32" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="20.32" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="TP8" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
+<junction x="73.66" y="20.32"/>
 </segment>
 </net>
 <net name="VIN" class="0">
