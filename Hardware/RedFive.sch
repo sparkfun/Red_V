@@ -34362,7 +34362,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="VREG-14239"/>
-<attribute name="VALUE" value="1.8V"/>
+<attribute name="VALUE" value="AP2127K-1.8V"/>
 </technology>
 </technologies>
 </device>
@@ -36205,7 +36205,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="JP15" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP16" library="SparkFun" deviceset="FIDUCIAL" device="1X2"/>
-<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_AP2127" device="K-1.8V" value="1.8V"/>
+<part name="U2" library="SparkFun-IC-Power" deviceset="V_REG_AP2127" device="K-1.8V" value="AP2127K-1.8V"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
@@ -37362,6 +37362,11 @@ T.Igoe, G.Martino, D.Mellis</text>
 <wire x1="83.82" y1="93.98" x2="83.82" y2="48.26" width="0.1524" layer="97" style="longdash"/>
 <wire x1="248.92" y1="147.32" x2="137.16" y2="147.32" width="0.1524" layer="97" style="longdash"/>
 <text x="139.954" y="143.002" size="2.54" layer="94" font="vector">USB -&gt; JTAG</text>
+<text x="86.36" y="78.74" size="1.27" layer="94" font="vector">Close this jumper 
+if your I2C slave 
+does not have it's
+own pullup 
+resistors</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
