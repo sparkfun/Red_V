@@ -11439,10 +11439,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CAP-00810" x="36.195" y="32.385" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="36.195" y="31.623" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R8" library="SparkFun-Resistors" package="0603" value="100k" x="36.195" y="34.29" smashed="yes">
+<element name="R8" library="SparkFun-Resistors" package="0603" value="100" x="36.195" y="34.29" smashed="yes">
 <attribute name="NAME" x="36.195" y="35.052" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07828" x="36.195" y="34.29" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="36.195" y="33.528" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="RES-07863" x="36.195" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="100" x="36.195" y="33.528" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R9" library="SparkFun-Resistors" package="0603" value="4.7k" x="57.785" y="16.51" smashed="yes" rot="R90">
 <attribute name="NAME" x="57.023" y="16.51" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -11524,7 +11524,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="D5" library="SparkFun-LED" package="LED-1206" value="GREEN" x="29.21" y="29.972" smashed="yes">
 <attribute name="NAME" x="29.21" y="30.9245" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00862" x="29.21" y="33.972" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="DIO-09910" x="29.21" y="33.972" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="GREEN" x="29.21" y="29.0195" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R21" library="SparkFun-Resistors" package="0603" value="4.7k" x="29.21" y="27.94" smashed="yes">
