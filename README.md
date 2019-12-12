@@ -3,7 +3,7 @@ SparkFun RED-V RedBoard
 
 [![SparkFun RED-V RedBoard](https://cdn.sparkfun.com/assets/parts/1/4/2/0/0/15594-SparkFun_RED-V_RedBoard_-_SiFive_RISC-V_FE310_SoC-01.jpg)](https://www.sparkfun.com/products/15594)
 
-*[SparkFun RED-V RedBoard (DEV-15594)*](https://www.sparkfun.com/products/15594)
+*[SparkFun RED-V RedBoard (DEV-15594)](https://www.sparkfun.com/products/15594)*
 
 The SparkFun RED-V (pronounced “red-five”) RedBoard is a low-cost, development board featuring the Freedom E310 SoC which brings with it the RISC-V instruction set architecture (ISA). What sets the RED-V RedBoard apart from the rest is the completely open-source approach from hardware to ISA. That means anyone can make full use the microcontroller without requiring royalties, licenses, or non-disclosure agreements. 
 
@@ -18,7 +18,8 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/red-v-redboard-hookup-guide)** - Basic hookup guide for the Redboard.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/red-v-redboard-hookup-guide)** - Basic hookup guide for the RedBoard.
+* **[RED-V Development Guide](https://learn.sparkfun.com/tutorials/red-v-development-guide)** - Getting started with the RED-V in Freedom Studio and Zephyr RTOS.
 
 License Information
 -------------------
